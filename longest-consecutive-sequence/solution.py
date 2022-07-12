@@ -1,4 +1,4 @@
-class longest_consecutive_sequence():
+class LongestConsecutiveSequence():
   def __init__(self):
     pass
 
