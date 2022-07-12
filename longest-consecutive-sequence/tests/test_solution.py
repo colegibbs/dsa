@@ -22,3 +22,11 @@ def test_list_positive_negative():
   instantiate = LongestConsecutiveSequence()
   actual = instantiate.solution(list)
   assert expected == actual
+
+
+def test_empty_list():
+  list = []
+  instantiate = LongestConsecutiveSequence()
+  with pytest.raises(ValueError):
+    instantiate.solution(list) 
+    
