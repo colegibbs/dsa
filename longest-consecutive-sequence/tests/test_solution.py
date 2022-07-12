@@ -29,4 +29,11 @@ def test_empty_list():
   instantiate = LongestConsecutiveSequence()
   with pytest.raises(ValueError):
     instantiate.solution(list) 
+
+def test_single_value():
+  list = [3]
+  expected = 1
+  instantiate = LongestConsecutiveSequence()
+  actual = instantiate.solution(list)
+  assert expected == actual
     
