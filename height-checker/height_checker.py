@@ -1,4 +1,8 @@
-class Solution(object):
+from add-two-numbers.solution import Solution
+
+print(Solution)
+
+class Solution:
     def heightChecker(self, heights):
         """
         :type heights: List[int]
